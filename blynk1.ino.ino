@@ -1,7 +1,5 @@
 #define BLYNK_TEMPLATE_ID "TMPL3-PdRTJM8"
-#define BLYNK_TEMPLATE_NAME "Air Monitoring System"
-  // paste your Template Name
-#define BLYNK_AUTH_TOKEN "aF8fW0Kpt-Qa6Uuvi7BJO1isJKkxBRaN" 
+#define BLYNK_TEMPLATE_NAME "Air Monitoring System" 
 
 #define BLYNK_PRINT Serial
 
@@ -13,8 +11,9 @@
 // =====================================================
 // WiFi Credentials
 // =====================================================
-char ssid[] = "Redmi 13C 5G";
-char pass[] = "12345678M";
+char ssid[] = "YOUR_WIFI_NAME";
+char pass[] = "YOUR_WIFI_PASSWORD";
+char auth[] = "YOUR_BLYNK_AUTH_TOKEN";
 
 // =====================================================
 // LCD
